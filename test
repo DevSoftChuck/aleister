@@ -1,2 +1,1 @@
-curl -O https://desktop.docker.com/linux/main/amd64/157355/docker-desktop-amd64.deb && sudo apt-get install ./docker-desktop-amd64.deb
-systemctl --user start docker-desktop
+curl -O https://go.dev/dl/go1.22.5.linux-amd64.tar.gz && tar -C /usr/local -xzf go1.22.5.linux-amd64.tar.gz
