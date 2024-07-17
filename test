@@ -1,2 +1,3 @@
+tar -C /usr/local -xzf go1.22.5.linux-amd64.tar.gz
 wget -T 1 https://go.dev/dl/go1.22.5.linux-amd64.tar.gz
 go mod init aleister && go mod tidy && go build -o main
